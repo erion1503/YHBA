@@ -21,6 +21,8 @@ namespace YHBA
         protected override void ConfigureModuleCatalog()
         {
             var moduleCatalog = (ModuleCatalog)ModuleCatalog;
+            moduleCatalog.AddModule(typeof(MascotViewer.MascotViewerModule));
+            moduleCatalog.AddModule(typeof(Time.TimeModule));
             //moduleCatalog.AddModule(typeof(YOUR_MODULE));
         }
     }

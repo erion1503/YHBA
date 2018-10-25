@@ -5,6 +5,8 @@
         prism:ViewModelLocator.AutoWireViewModel="True"
         Title="{Binding Title}" Height="350" Width="525">
     <Grid>
-        <ContentControl prism:RegionManager.RegionName="ContentRegion" />
+        <!--<ContentControl prism:RegionManager.RegionName="ContentRegion" />-->
+        <ContentControl prism:RegionManager.RegionName="MascotView" HorizontalAlignment="Right" VerticalAlignment="Bottom" />
+        <ContentControl prism:RegionManager.RegionName="TimeView" Margin="60,0,232,136.667" />
     </Grid>
 </Window>
